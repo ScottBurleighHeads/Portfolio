@@ -16,7 +16,7 @@ def create_app():
     app.register_blueprint(db_commands)
 
     if __name__ == "__main__":
-	    app.run()
+	    app.run(debug=True)
     
     return app
 

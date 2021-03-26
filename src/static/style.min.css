@@ -1,0 +1,14 @@
+body{
+    height:100vh;
+    background-image: url('/static/img/image10.jpg');
+}
+h1{
+    font-size:600%
+}
+h4{
+    font-size:300%
+}
+#button{
+    background-image: url('/static/img/image11.jpg');
+    color:rgb(170, 161, 82);
+}
