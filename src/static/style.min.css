@@ -11,4 +11,21 @@ h4{
 #button{
     background-image: url('/static/img/image11.jpg');
     color:rgb(170, 161, 82);
+    border-width: thick;
+    border-color:black;
+    font-weight: bolder;
+   
 }
+
+@media only screen and (max-width: 400px) {
+    body {
+        background-image: none;  
+    }
+    h1{
+        font-size:10vw;
+    }
+    h4{
+        font-size:5vw;
+    }
+  }
+
