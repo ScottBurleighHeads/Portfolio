@@ -1,5 +1,6 @@
 body{
     height:100vh;
+    padding:1%;
 }
 h1{
     font-size:600%;
@@ -22,19 +23,13 @@ p{
     font-weight: bolder;
 }
 
-#dreamBig{
+#pic{
+    display: flex;
     height: 50vh;
-    width:33vw;
+    width: 30vw;
+
 }
 
-#PutIn{
-    height: 50vh;
-    width:33vw;
-}
-#PassionLed{
-    height: 50vh;
-    width:33vw;
-}
 p{  
     text-align: justify;
 }
@@ -42,8 +37,8 @@ p{
 #textColumn{
     display: flex;
     flex-direction: row;
-    width:100vw;
-    justify-content:space-evenly;   
+    width:100%;
+    justify-content:space-around;   
 }
 @media only screen and (max-width: 1000px) {
     body {
@@ -60,6 +55,9 @@ p{
         flex-direction: column;
         width:100vw;
         justify-content:center;   
+    }
+    #pic{
+        width:100vw;
     }
 }
 
