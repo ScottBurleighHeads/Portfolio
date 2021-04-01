@@ -27,11 +27,11 @@ p{
     display: flex;
     height: 50vh;
     width: 30vw;
-
 }
 
 p{  
     text-align: justify;
+    padding-right: 2%;
 }
 
 #textColumn{
@@ -39,7 +39,14 @@ p{
     flex-direction: row;
     width:100%;
     justify-content:space-around;   
+    padding: 0;
+    padding-left: 1%;
 }
+
+#contain{
+    margin:1%
+}
+
 @media only screen and (max-width: 1000px) {
     body {
         background-image: none;  
@@ -54,10 +61,15 @@ p{
         display: flex;
         flex-direction: column;
         width:100vw;
-        justify-content:center;   
+        justify-content:center;      
     }
+
     #pic{
+        display: flex;
+        flex-direction: column;
         width:100vw;
+        justify-content:center;
+        padding-right: 5%;
     }
 }
 
