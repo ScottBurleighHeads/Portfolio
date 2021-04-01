@@ -1,23 +1,51 @@
 body{
     height:100vh;
-    background-image: url('/static/img/image10.jpg');
 }
 h1{
-    font-size:600%
+    font-size:600%;
 }
 h4{
-    font-size:300%
+    font-size:300%;
+}
+h5{
+    font-size:200%
+}
+p{  
+    text-align: justify;
 }
 #button{
     background-image: url('/static/img/image11.jpg');
     color:rgb(170, 161, 82);
     border-width: thick;
     border-color:black;
+
     font-weight: bolder;
-   
 }
 
-@media only screen and (max-width: 400px) {
+#dreamBig{
+    height: 50vh;
+    width:33vw;
+}
+
+#PutIn{
+    height: 50vh;
+    width:33vw;
+}
+#PassionLed{
+    height: 50vh;
+    width:33vw;
+}
+p{  
+    text-align: justify;
+}
+
+#textColumn{
+    display: flex;
+    flex-direction: row;
+    width:100vw;
+    justify-content:space-evenly;   
+}
+@media only screen and (max-width: 1000px) {
     body {
         background-image: none;  
     }
@@ -27,5 +55,11 @@ h4{
     h4{
         font-size:5vw;
     }
-  }
+    #textColumn{
+        display: flex;
+        flex-direction: column;
+        width:100vw;
+        justify-content:center;   
+    }
+}
 
