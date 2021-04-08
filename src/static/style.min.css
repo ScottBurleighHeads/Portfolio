@@ -1,6 +1,14 @@
 body{
     height:100vh;
     padding:1%;
+    background-color: black;
+    color:rgb(245, 247, 247);
+   
+}
+nav{
+    display:flex;
+    flex-direction:row;
+    
 }
 h1{
     font-size:600%;
@@ -14,15 +22,27 @@ h5{
 p{  
     text-align: justify;
 }
+#paraOne{
+    padding-right:10%;
+    padding-top: 0%;
+}
 #button{
-    background-image: url('/static/img/image11.jpg');
-    color:rgb(170, 161, 82);
+    background-color:black;
+    border-color:white;
+    border-width:30px;
+    color: white;
     border-width: thick;
     border-color:black;
+    width:13vw;
 
     font-weight: bolder;
 }
-
+#minorInfo{
+    display: flex;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: space-between;
+}
 #pic{
     display: flex;
     height: 50vh;
@@ -42,11 +62,32 @@ p{
     padding: 0;
     padding-left: 1%;
 }
-
+#section{
+    display: flex;
+    flex-direction:row;
+    border-bottom: 3px solid #bbb;
+    justify-content: space-around;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 15%;
+    height: 500px;
+}
 #contain{
     margin:1%
 }
 
+#picOne{
+    height: 50vh;
+    width: 30vw;
+}
+
+.carousel-item{
+    height: 32rem;
+    background-color: 777;
+
+
+}
 @media only screen and (max-width: 1000px) {
     body {
         background-image: none;  
@@ -63,13 +104,27 @@ p{
         width:100vw;
         justify-content:center;      
     }
-
+    #section{
+        display: flex;
+        flex-direction:column;
+        width:100vw;
+        padding-right: 5%;
+        height: 100%;
+        overflow: hidden;  
+    }
     #pic{
         display: flex;
         flex-direction: column;
         width:100vw;
         justify-content:center;
         padding-right: 5%;
+    }
+    #picOne{
+        display: flex;
+        flex-direction: column;
+        width:100vw;
+        justify-content:center;
+        padding-right: 18%;
     }
 }
 
