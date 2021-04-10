@@ -2,8 +2,12 @@ body{
     height:100vh;
     padding:1%;
     background-color: black;
-    color:rgb(245, 247, 247);
-   
+    color:rgb(245, 247, 247);   
+}
+
+#projectsLayout{
+    display: flex;
+    flex-direction: row;
 }
 nav{
     display:flex;
@@ -23,7 +27,7 @@ p{
     text-align: justify;
 }
 #paraOne{
-    padding-right:10%;
+    padding-right:25%;
     padding-top: 0%;
 }
 #button{
