@@ -21,5 +21,15 @@ def projectIndex():
         ],
         "database":["This is a static website. There is no database attached or required yet."
         ],
+        "img1":[
+            'img/image10.jpg'
+        ],
+        "img2":[
+            'img/image11.jpg'
+        ],
+        "img3":[
+            'img/DreamBig.jpg'
+        ]
         }
+    
     return render_template("projects.html",projectData=projectData)

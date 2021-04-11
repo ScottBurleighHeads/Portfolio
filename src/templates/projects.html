@@ -4,27 +4,26 @@
 <section id="projectsLayout">
 <div class="col">
   <h5>Portfolio</h5>
-  <p>{{ projectData["intro"] }}</p>
+  <p>{{ projectData["intro"][0] }}</p>
   <h6>Front End:</h6>
   <p>
-    {{ projectData["frontend[1]"] }}
+    {{ projectData["frontend"][0] }}
   </p>
   <h6>Back End:</h6>
   <p>
-    Driving this website is Python and its web application framework Flask.
+    {{ projectData["backend"][0] }}
   </p>
   <h6>Cloud:</h6>
   <p>
-    To save cost I have deployed this website using an S3 bucket on AWS. Using an S3 
-    bucket dramatically decrease's expense's compared to an EC2.
+    {{ projectData["cloud"][0] }}
   </p>
   <h6>Dev ops:</h6>
   <p>
-    CI/CD pipeline is established with github actions.
+    {{ projectData["devOps"][0] }}
   </p>
   <h6>Database:</h6>
   <p>
-    This is a static website. There is no database attached or required yet. 
+    {{ projectData["database"][0] }}
   </p>
 
 </div>
@@ -36,21 +35,21 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="{{ url_for('static',filename='img/image10.jpg') }}" class="d-block w-100" alt="...">
+      <img src="{{ url_for('static',filename=projectData['img1'][0]) }}" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>First slide label</h5>
         <p>Some representative placeholder content for the first slide.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="{{ url_for('static',filename='img/image11.jpg') }}" class="d-block w-100" alt="...">
+      <img src="{{ url_for('static',filename=projectData['img2'][0]) }}" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>Second slide label</h5>
         <p>Some representative placeholder content for the second slide.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="{{ url_for('static',filename='img/PassionLed.jpg') }}" class="d-block w-100" alt="...">
+      <img src="{{ url_for('static',filename=projectData['img3'][0]) }}" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>Third slide label</h5>
         <p>Some representative placeholder content for the third slide.</p>
