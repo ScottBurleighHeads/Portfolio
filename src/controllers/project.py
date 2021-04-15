@@ -5,7 +5,7 @@ project = Blueprint("project",__name__)
 def projectIndex():
     projectData = {
         "intro":[
-            "What better way to to show my skills then to show you.","hello"
+            "What better way to to show my skills then to show you."
             ],
         "frontend":[
             "This website was built using html, css and bootsrap.", 
@@ -31,5 +31,6 @@ def projectIndex():
             'img/DreamBig.jpg'
         ]
         }
+    print(len(projectData["intro"]))
     
     return render_template("projects.html",projectData=projectData)
