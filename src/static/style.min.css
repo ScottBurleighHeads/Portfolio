@@ -141,16 +141,22 @@ h6{
     #textColumn{
         display: flex;
         flex-direction: column;
-        width:100vw;
-        justify-content:center;      
+        width:95vw;
+        justify-content:center; 
+        margin:2%;
+        padding:2%;     
     }
     #section{
         display: flex;
-        flex-direction:column;
+        flex-direction: column;
+        margin:1%;
+        padding:5%;
+        height:auto;   
         width:100vw;
-        padding-right: 5%;
-        height: 100%;
-        overflow: hidden;  
+    }
+    section{
+        padding:2%;
+        margin:2%;
     }
     #pic{
         display: flex;
@@ -159,17 +165,12 @@ h6{
         justify-content:center;
         padding-right: 5%;
     }
-    #picOne{
-        display: flex;
-        flex-direction: column;
-        width:100vw;
-        justify-content:center;
-        padding-right: 18%;
-    }
+    
     nav,#navhelp{
         display: flex;
         flex-direction:column;
         align-items: center;
+        width:100vw;
     }
     h1{
         font-size:10vw;
@@ -177,38 +178,27 @@ h6{
     h4{
         font-size:5vw;
     }
-    #textColumn{
-        display: flex;
-        flex-direction: column;
-        width:100vw;
-        justify-content:center;      
-    }
-    #section{
-        display: flex;
-        flex-direction:column;
-        width:100vw;
-        padding-right: 5%;
-        height: 100%;
-        overflow: hidden;  
+    
+    #paraOne,#picOne{
+        position:static;
+        width:100%;
+        padding:1%;
+        margin:1%;
+        padding-right: 3%;
+        
     }
     #pic{
         display: flex;
         flex-direction: column;
-        width:100vw;
+        width:100%;
         justify-content:center;
         padding-right: 5%;
-    }
-    #picOne{
-        display: flex;
-        flex-direction: column;
-        width:100vw;
-        justify-content:center;
-        padding-right: 18%;
     }
     nav,#navhelp{
         display: flex;
         flex-direction:column;
         align-items: center;
+        
     }
     #navp{
         font-size: small;
