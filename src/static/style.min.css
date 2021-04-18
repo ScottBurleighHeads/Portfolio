@@ -40,7 +40,6 @@ p{
     border-width: thick;
     border-color:black;
     width:13vw;
-
     font-weight: bolder;
 }
 #minorInfo{
@@ -91,8 +90,10 @@ p{
 .carousel-item{
     height: 32rem;
     background-color: 777;
-
-
+}
+#carous-image{
+    height: 50vh;
+    width: 50vw;
 }
 @media only screen and (max-width: 1000px) {
     body {

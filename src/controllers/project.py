@@ -38,15 +38,15 @@ def projectIndex():
             "A PostgreSQL server was driving the database."
         ],
         "img1":[
-            'img/image10.jpg',
+            'img/homeIndex.JPG',
             'img/calorieHome.JPG'
         ],
         "img2":[
-            'img/image11.jpg',
+            'img/about1.JPG',
             'img/calorieCount1.JPG'
         ],
         "img3":[
-            'img/DreamBig.jpg',
+            'img/about2.JPG',
             'img/calorieCount2.JPG'
         ]
         }
