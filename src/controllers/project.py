@@ -26,8 +26,8 @@ def projectIndex():
         "cloud":[
             "To save cost I have deployed this website using an S3 bucket on AWS." 
             "Using an S3 bucket dramatically decrease's expense's compared to an EC2.",
-            "I temporarily deployed the website on an EC2 hosted by AWS. I set up a PostgreSQL server"
-            "on a RDS using AWS."
+            "I temporarily deployed the website on an EC2 hosted by AWS. I set up a PostgreSQL server "
+            "that was running on an RDS using AWS."
         ],
         "devOps":[
             "Established a CI/CD pipeling with github actions.",
@@ -47,7 +47,11 @@ def projectIndex():
         ],
         "img3":[
             'img/about2.JPG',
-            'img/calorieCount2.JPG'
+            'img/Recipe1.JPG'
+        ],
+        "img4":[
+            None,
+            'img/LogIn.JPG'
         ]
         }
     print(len(projectData["intro"]))

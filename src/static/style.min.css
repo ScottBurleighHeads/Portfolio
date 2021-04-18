@@ -8,10 +8,13 @@ body{
 #projectsLayout{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    padding-right: 3%;
 }
 nav{
     display:flex;
     flex-direction:row;
+    align-items: center;
     
 }
 h1{
@@ -27,6 +30,14 @@ h5{
 }
 p{  
     text-align: justify;
+}
+#navp{
+
+    font-size:larger;
+    margin-bottom: 0%;
+    padding-top: 1%;
+    color:black;
+
 }
 #paraOne{
     padding-right:25%;
@@ -59,6 +70,10 @@ p{
     padding-right: 2%;
 }
 
+h6{
+    font-size:large;
+}
+
 #textColumn{
     display: flex;
     flex-direction: row;
@@ -79,25 +94,43 @@ p{
     height: 500px;
 }
 #contain{
-    margin:1%
+    margin:1%;
 }
-
+#projectWriting{
+    padding:6%;
+    padding-top:1%;
+}
 #picOne{
     height: 50vh;
     width: 30vw;
 }
 
-.carousel-item{
-    height: 32rem;
-    background-color: 777;
-}
 #carous-image{
     height: 50vh;
     width: 50vw;
 }
+#Playout{
+    padding-left: 5%;
+    padding-top: 0%;
+}
+.carousel-inner{
+    display: flex;
+    align-items:center;
+}
+.pt-3{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items:center;
+}
 @media only screen and (max-width: 1000px) {
-    body {
-        background-image: none;  
+    
+    body{
+        width:120%;
+        background-image: none;
+    }
+    html{
+        width:120%;
     }
     h1{
         font-size:10vw;
@@ -132,6 +165,62 @@ p{
         width:100vw;
         justify-content:center;
         padding-right: 18%;
+    }
+    nav,#navhelp{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+    }
+    h1{
+        font-size:10vw;
+    }
+    h4{
+        font-size:5vw;
+    }
+    #textColumn{
+        display: flex;
+        flex-direction: column;
+        width:100vw;
+        justify-content:center;      
+    }
+    #section{
+        display: flex;
+        flex-direction:column;
+        width:100vw;
+        padding-right: 5%;
+        height: 100%;
+        overflow: hidden;  
+    }
+    #pic{
+        display: flex;
+        flex-direction: column;
+        width:100vw;
+        justify-content:center;
+        padding-right: 5%;
+    }
+    #picOne{
+        display: flex;
+        flex-direction: column;
+        width:100vw;
+        justify-content:center;
+        padding-right: 18%;
+    }
+    nav,#navhelp{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+    }
+    .carousel-inner{
+        width:100vw;
+    }
+    #navp{
+        font-size: small;
+    }
+    #projectsLayout{
+        display: flex;
+        flex-direction:column;
+        margin:0%;
+        padding:0;
     }
 }
 
