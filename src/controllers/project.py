@@ -9,9 +9,9 @@ def projectIndex():
         ],
         "intro":[
             "What better way to to show my skills then to show you.",
-            "Calorie Counter is a website that can query search a third party API"
-            "for a certain food item. Once found it can return the calories, protein"
-            "fat and carbs. Once signed in to the website the user has an option to store"
+            "Calorie Counter is a website that can query search a third party API "
+            "for a certain food item. Once found it can return the calories, protein, "
+            "fat and carbs. Once signed in to the website the user has an option to store the"
             "results of the query search onto a database."
             ],
         "frontend":[
@@ -24,7 +24,7 @@ def projectIndex():
             "There was an ORM built with SQLalchemy."
             ],
         "cloud":[
-            "To save cost I have deployed this website using an S3 bucket on AWS." 
+            "To save cost I have deployed this website using an S3 bucket on AWS. " 
             "Using an S3 bucket dramatically decrease's expense's compared to an EC2.",
             "I temporarily deployed the website on an EC2 hosted by AWS. I set up a PostgreSQL server "
             "that was running on an RDS using AWS."

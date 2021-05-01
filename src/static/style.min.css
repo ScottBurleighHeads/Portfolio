@@ -72,6 +72,7 @@ p{
 
 h6{
     font-size:large;
+    padding-left: 1%;
 }
 
 #textColumn{
@@ -123,6 +124,22 @@ h6{
     justify-content: center;
     align-items:center;
 }
+#navhelp{
+    display: flex;
+    align-items: center;
+}
+#email{
+    display: flex;
+    height: 4vh;
+    width:3vw;
+}
+#Intro{
+    padding-top:3%;
+    padding-bottom: 3%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
 @media only screen and (max-width: 1000px) {
     
     body{
@@ -197,11 +214,7 @@ h6{
     nav,#navhelp{
         display: flex;
         flex-direction:column;
-        align-items: center;
-        
-    }
-    #navp{
-        font-size: small;
+        align-items: center;   
     }
     #projectsLayout{
         display: flex;
