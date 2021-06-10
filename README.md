@@ -1,1 +1,1 @@
-This Portfolio is my personal website where potential employers can find information about me.
+The website portfolio is not yet deployed. 
